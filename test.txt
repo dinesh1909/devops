@@ -24,3 +24,21 @@ $pwd
 
 $/c/Users/25615/devops
 
+$git status
+
+$git add test.txt
+
+git add command will start tracking the test.txt file.
+
+$git config global.user.name dinesh1909
+
+above command cached global user to local repository
+
+$git config global.user.email dinesh1909@yahoo.co.in
+
+above command cached user email id to local repostiory
+
+$git commit -m "Origin file"
+
+$git push origin master
+
