@@ -1,0 +1,49 @@
+www.github.com
+
+=> create repositeries
+
+give name in this case i have given 'devops'
+
+cop the link below link
+
+https://github.com/dinesh1909/devops.git
+
+go to git Bash prompt
+
+$pwd
+
+$/c/Users/25615
+
+$git clone https://github.com/dinesh1909/devops.git
+
+after executing above command it will create directory name as repositery name 'devops'
+
+$cd devops
+
+$pwd
+
+$/c/Users/25615/devops
+
+$git status
+
+$git add test.txt
+
+git add command will start tracking the test.txt file.
+
+$git config global.user.name dinesh1909
+
+above command cached global user to local repository
+
+$git config global.user.email dinesh1909@yahoo.co.in
+
+above command cached user email id to local repostiory
+
+$git commit -m "Origin file"
+
+$git push origin master
+
+$git checkout -b Branch1
+
+$git commit -m "Adding to Branch1"
+
+$git push origin Branch1
